@@ -77,11 +77,30 @@ function qSortAsc (&$array, $inLeft, $inRight){
     <div class="container">
       <div class="head">
           <h1>ЛАПТЕВ РОМАН <small>[ 8(912)337-07-70, ronlab@yandex.ru ]</small></h1>    
-      </div>   
-      <ol class="breadcrumb">
+      </div>
+        <ol class="breadcrumb">
           <li><a href="index.html">Главная</a></li>
           <li><a href="unit1.php">Задание №1</a></li>
+          <li><a href="unit2.html">Задание №2</a></li>
+          <li><a href="unit3.html">Задание №3</a></li>
+          <li><a href="unit4.html">Задание №4</a></li>
       </ol>  
+    </div>
+    
+      <div class="jumbotron">
+          <div class="container">
+          <blockquote>
+              <p>Уже в 80-х великие математики разработали решения по сортировке данных. 
+              Поэтому я не стал изобретать свой "велосипед", а  использовал несколько известных и 
+              довольно быстрых алгоритмов: "расческой" и  "быстрая сортировка".  </p>
+              <footer>Роман</footer>
+          </blockquote>
+          </div>
+      </div>  
+      
+    <div class="container">     
+        
+      
       <div class="row">
           <div class="col-md-12">
           <h3>ИСХОДНЫЙ МАССИВ </h3> 
@@ -92,14 +111,14 @@ function qSortAsc (&$array, $inLeft, $inRight){
         
       <div class="row">
           <div class="col-md-12">
-          <h3>МАССИВ ОТСОРТИРОВАННЫЙ ПО ВОЗРАСТАНИЮ </h3> 
+              <h3>МАССИВ ОТСОРТИРОВАННЫЙ ПО ВОЗРАСТАНИЮ <small>"БЫСТРАЯ СОРТИРОВКА"</small> </h3> 
           <p class="lead"> <?php echo implode(" | ", $ascArr); ?> </p>
           </div>
       </div>
         
       <div class="row">
           <div class="col-md-12">
-          <h3>МАССИВ ОТСОРТИРОВАННЫЙ ПО УБЫВАНИЮ  </h3> 
+          <h3>МАССИВ ОТСОРТИРОВАННЫЙ ПО УБЫВАНИЮ <small>"РАСЧЕСКА"</small> </h3> 
           <p class="lead"> <?php echo implode(" | ", $descArr); ?> </p>
           </div>
       </div>
